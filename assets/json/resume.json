@@ -26,6 +26,14 @@
       "highlights": ["MERN stack", "LaTeX", "TikZ"],
       "startDate": "2025-03-01",
       "url": "https://poly-tikz.com"
+    },
+
+    {
+      "name": "Sureal Number Calculator",
+      "summary": "The Surreal number system is an extension of the Real number system which includes every real number (e.g, π, √2, e, etc…), as well as more “exotic” numbers, such as ω (which is in some sense the “first” infinite number), ω+1, ω², and other even stranger numbers, such as ω-1, √ω, (1/ ω), π × ω, etc. Using Java, I wrote a calculator which does operations (+, -, ×) on this number system, including a custom parser and numeric comparator. So far as I can tell I am the first to implement this!",
+      "highlights": ["Java", "C"],
+      "startDate": "2024-02-01",
+      "url": "https://github.com/DavidovQC/Surreal_Calc_Java_Implementation"
     }
   ],
 
