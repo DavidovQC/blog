@@ -29,7 +29,8 @@ $grey-color-light: color.adjust($grey-color, $lightness: 40%);
 ///main thing to change:
 ///
 $grey-color-dark: #111111;
-$grey-900: #454545;
+// $grey-900: #454545;
+$grey-900: #2c2c2c;
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
