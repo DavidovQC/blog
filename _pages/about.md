@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: Nathan Davidov
+subtitle: Who is Lorem Ipsum?
 # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
@@ -34,4 +34,8 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Here you'll find details about my various projects, as well as some writeups of mine. I enjoy expounding upon papers that I have read which interest me, going over them at tutorial pace. Part of the motivation for starting this blog in the first place is to make necessary improvements on [poly-tikz](https://poly-tikz.com). Most of my explanations come with a picture, but drawing beautiful TikZ diagrams has always been quite the chore. So I've decided to remdy that, by creating a GUI which is easy to use and makes the work go quicker. I also like to write about [data structures and algorithms](https://leetcode.com/) and various books I've read.
+Hello, world! Here you'll find details about my various projects, as well as some writeups of mine. I enjoy expounding upon papers that I have read which interest me, going over them at tutorial pace. I also like to write about [data structures and algorithms](https://leetcode.com/) and various books I've read. Finally, you might find some other projects of mine, as I'm in the midst of learning [CAD](https://www.autodesk.com/products/fusion-360/overview) software.
+
+Perhaps another part of the motivation for starting this blog in the first place is to make necessary improvements on [poly-tikz](https://poly-tikz.com). Most of my explanations come with a picture, but drawing TikZ diagrams has always been quite the chore. So I've decided to remdy that, by creating a GUI which is easy to use and makes the work go quicker.
+
+If you'd like to get in touch, the best way is via [email!](mailto:NathanDavidovWork@gmail.com)
