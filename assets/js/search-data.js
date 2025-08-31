@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/Resume/";
           },
-        },{id: "post-1-1-1-part-1",
+        },{id: "post-gradated-multiplication",
+        
+          title: "Gradated Multiplication",
+        
+        description: "The first part in a long series.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/blog/2025/gradated-multiplication/";
+          
+        },
+      },{id: "post-1-1-1-part-1",
         
           title: "1+1+1+... (part 1)",
         
@@ -41,6 +52,9 @@ ninja.data = [{
               window.location.href = "/blog/books/the_godfather/";
             },},{id: "news-i-created-a-blog",
           title: 'I created a blog!',
+          description: "",
+          section: "News",},{id: "news-i-added-a-rectangle-tool-in-poly-tikz",
+          title: 'I added a rectangle tool in poly-tikz',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
