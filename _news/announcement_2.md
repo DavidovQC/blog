@@ -1,3 +1,12 @@
+---
+layout: post
+date: 2025-08-31 11:35:00-0400
+inline: true
+related_posts: false
+---
+
+I added a rectangle tool in [poly-tikz](https://poly-tikz.com)
+
 <!-- ---
 layout: post
 title: A long announcement with details

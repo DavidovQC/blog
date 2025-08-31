@@ -14,7 +14,7 @@ I'd like to begin a series addressing the age-old school-boy question, namely,
 
 <center>What is $1+1+1+...\ =\ ?$</center>
 <br>
-I've found that most people, even mathematically-inclined folk, are contented with the answer "$\infty$" -- and so was I, until I learned about Ordinal and Surreal numbers -- these are classes of numbers which contain all of the regular counting numbers $\mathbb{N} = \\{ 0, 1, 2, 3, 4,... \\}$, as well as more exotic elements, some of which we will meet today. When I learned about them in high school, I thought these number systems might help us to extend sums like these, after all, I had seen how infinite sums such as:
+I've found that most people, even mathematically-inclined folk, are contented with the answer "$\infty$" -- and so was I, until I learned about [ordinal](https://en.wikipedia.org/wiki/Ordinal_number) and [surreal](https://en.wikipedia.org/wiki/Surreal_number) numbers -- these are classes of numbers which contain all of the regular counting numbers $\mathbb{N} = \\{ 0, 1, 2, 3, 4,... \\}$, as well as more exotic elements, some of which we will meet today. When I learned about them in high school, I thought these number systems might help us to extend sums like these, after all, I had seen how infinite sums such as:
 
 $$\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+...\ = 1$$
 
@@ -36,20 +36,18 @@ So why couldn't the notion of an infinite sum be extended even further to includ
 <h3>Set Theory</h3>
 
 Set theory refers to the current foundations of mathematics. At one point, the foundations undergirding mathematics were Geometry, in particular Euclidean Geometry, but a series of revelations and crises, as well as some remarkable results by one Georg Cantor, set the stage for the modern foundations we have today, these are a collection of axioms known as ZFC Set Theory. ZFC stands for Zermelo, Frankel, and Choice, the first two were leading pioneers in the foundations of set theory, and Choice refers to an axiom of Choice. There are advocates for competing foundations, namely Category Theory and Homotopy Type Theory (HoTT). Before we can answer the question above, we ought to first answer even more basic questions, such as, what is meant by "$1$," what is meant by "$+$?"
+<br>
 
-<center><h2>Child: But why?</h2>
+<div style="text-align: center;">
+<h2>Child: But why is it so?</h2>
 <h3>Adult: $\textbf{Answer}_1$ - Child: But why?</h3>
 <h4>Adult: $\textbf{Answer}_2$ - Child: But why?</h4>
 <h6>Adult: $\textbf{Answer}_3$ - Child: But why?</h6>
-
+<center>
 <small>Adult: $\textbf{Answer}_4$ - Child: But why?</small>
-
-<sub>Adult: $\textbf{Answer}_5$ - Child: But why?</sub>
-
-<h1>.</h1>
-
-<h2>.</h2>
-
-<h6>.</h6>
-
 </center>
+<sub>Adult: $\textbf{Answer}_5$ - Child: But why?</sub>
+<h1>.</h1>
+<h2>.</h2>
+<h6>.</h6>
+</div>
