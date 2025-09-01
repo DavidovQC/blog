@@ -38,4 +38,12 @@ Let's plug in $(b, b^2)$, we get $$b^2 = (b-a)b + B$$, solving for $B$ we get
 
 $$B = ab$$
 
-So the y-intercept is the product of $ab$, neat! But how does this lead us to the notion of "gradated multiplication"
+So the y-intercept is the product of $ab$, neat! But how does this lead us to the notion of "gradated multiplication?" Let's consider the points which lie on the line between points $A$ and $B$, these points give us other values for $a \times b$, but with a bit of a twist. Consider the point $X$, since it lies to the left of the y-axis, it can be said to the value of a product which will "favor" $a$. This picture gives us an interpretation of $a^2$ as "the value of $a \times b$ which totally disregards b." So for every value between $(-a, b)$, we have a notion of multiplication, where $0 \in (-a, b)$ corresponds to "regular" multiplication. We can find the general value for any parameter $p \in (-a, b)$ as just the value of the line at $p$:
+
+$$a \times_{p} b :=  (b-a)p + ab$$
+
+Notice that in particular, $a \times_{0} b = (b-a)*0 + ab = ab$. In some sense this is totally all right, but instead of an interval [-a, b], it might be preferable to work with the interval [0, 1], so that if we want a product which is say, $30\%$ reliant on $a$, we plug in $p=.3$. There is an easy fix for this, namely, to find a map from the interval $[-a, b] \to [0, 1]$ with the following properties:
+
+1. $m(-a) = 0$
+2. $m(0) = .5$
+3. $m(b) = 1$

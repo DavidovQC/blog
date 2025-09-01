@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-I added a rectangle tool in [poly-tikz](https://poly-tikz.com)
+I added a rectangle tool in [poly-tikz](https://poly-tikz.com).
 
 <!-- ---
 layout: post
