@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-resume",
           title: "Resume",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Below you&#39;ll find the technologies I&#39;m familiar with, along with some projects I&#39;ve completed.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/Resume/";
@@ -54,7 +54,7 @@ ninja.data = [{
           title: 'I created a blog!',
           description: "",
           section: "News",},{id: "news-i-added-a-rectangle-tool-in-poly-tikz",
-          title: 'I added a rectangle tool in poly-tikz',
+          title: 'I added a rectangle tool in poly-tikz.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
