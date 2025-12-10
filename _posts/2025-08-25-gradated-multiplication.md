@@ -2,7 +2,7 @@
 layout: post
 title: Gradated Multiplication
 date: 2025-08-29 15:09:00
-description: The first part in a long series.
+description: A nifty generalization of multiplication.
 tags: multiplication math
 categories: math
 # featured: true
@@ -17,7 +17,7 @@ theme-color: var(--global-theme-color) -- *blue/red*
 bg-text: var(--global-divider-color)
  -->
 
-I'd like to present an idea I had as an undergraduate which I'd recently came across again. I haven't seen anything like what I'm about to present before, but if anybody's seen anything similar please do let me know and I'd be happy to credit whoever came up with these ideas first. In this presentation I will present a "gradated" multiplication operator.
+I'd like to write about an idea I had as an undergraduate which I'd recently came across again. I haven't seen anything like what I'm about to present here, but if anybody's seen anything similar please do let me know and I'd be happy to credit whoever came up with these ideas first. In this blog post I will present a "gradated" multiplication operator.
 
 Consider the following set up, take two numbers $-a < 0 < b$ and graph them on a parabola $f(x) = x^2$ as shown below.
 
@@ -38,12 +38,36 @@ Let's plug in $(b, b^2)$, we get $$b^2 = (b-a)b + B$$, solving for $B$ we get
 
 $$B = ab$$
 
-So the y-intercept is the product of $ab$, neat! But how does this lead us to the notion of "gradated multiplication?" Let's consider the points which lie on the line between points $A$ and $B$, these points give us other values for $a \times b$, but with a bit of a twist. Consider the point $X$, since it lies to the left of the y-axis, it can be said to the value of a product which will "favor" $a$. This picture gives us an interpretation of $a^2$ as "the value of $a \times b$ which totally disregards b." So for every value between $(-a, b)$, we have a notion of multiplication, where $0 \in (-a, b)$ corresponds to "regular" multiplication. We can find the general value for any parameter $p \in (-a, b)$ as just the value of the line at $p$:
+So the y-intercept is the product of $ab$, neat! But how does this lead us to the notion of "gradated multiplication?" Let's consider the points which lie on the line between points $A$ and $B$, these points give us other values for $a \times b$, but with a bit of a twist. Consider the point $X$, since it lies to the left of the y-axis, it can be said to the value of a product which will "favor" $a$. This picture gives us an interpretation of $a^2$ as "the value of $a \times b$ which totally disregards b." So for every value between $(-a, b)$, we have a notion of multiplication, where $0 \in (-a, b)$ corresponds to "regular" multiplication. We can find the general value for any parameter $x \in (-a, b)$ as just the value of the line at $x$:
 
-$$a \times_{p} b :=  (b-a)p + ab$$
+$$a \times_{x} b :=  (b-a)x + ab$$
 
 Notice that in particular, $a \times_{0} b = (b-a)*0 + ab = ab$. In some sense this is totally all right, but instead of an interval [-a, b], it might be preferable to work with the interval [0, 1], so that if we want a product which is say, $30\%$ reliant on $a$, we plug in $p=.3$. There is an easy fix for this, namely, to find a map from the interval $[-a, b] \to [0, 1]$ with the following properties:
 
-1. $m(-a) = 0$
-2. $m(0) = .5$
-3. $m(b) = 1$
+<div align="center">
+$r(-a) = 0$
+<br>
+$r(b) = 1$
+</div>
+
+Which is achieved by the transformation $r(x) = \frac{x+a}{b+a}$. Of course, we really want $r^{-1}$, which is a rudimentary calculation yielding:
+
+$$r^{-1}(p) = (b+a)p - a$$
+
+Now, we can take any value $p \in [0, 1]$, and map it via $r^{-1}$ to $[a, b]$, then plug that value in to compute $a\times_p b := a \times_{r^{-1} (p)} b$, plugging in we get:
+
+$$a \times_p b = (b-a)[(b+a)p - a] + ab = (b^2 - a^2)p - ab + a^2 + ab$$
+
+Finally, after some more algebraic massaging we get the very nice answer of:
+
+$$a \times_p b = b^2p + (1-p)a^2$$
+
+What value of $p$ will recover regular multiplication? Unfortunately, it isn't $.5$, there is a choice for our function $r$ which would yield this result, but the real answer can be computed by setting $b^2p + (1-p)a^2 = ab$. Recall that we could retrieve the familiar multiplication operator upon setting $x=0$, to compute the corresponding value of p we should plug it into $r$, but $r(0) = \frac{a+0}{a+b}$, and indeed, the solution to this equation is $p = \frac{a}{a+b}$.
+
+This yields some very natural questions, now that we have a gradated multiplication, can we get a gradated division operator? And after that, or perhaps before, what would gradated addition look like? The formula above would suggest:
+
+$$a +_p b  \stackrel{?}{=} ap + (1-p)b$$
+
+Setting $p = \frac{a}{a-b}$ recovers the typical addition operator, but I haven't thought through any nice geometric reason for why this definition is natural.
+
+And after we've collected all of these ingredients, it would be quite natural to ask, can we then find a gradated derivative operator? Would it coincide with any of the current definitions? I'll tell you once I've made some progress.
