@@ -27,7 +27,7 @@ ninja.data = [{
         
           title: "Gradated Multiplication",
         
-        description: "The first part in a long series.",
+        description: "A nifty generalization of multiplication.",
         section: "Posts",
         handler: () => {
           
