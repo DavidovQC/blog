@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gradated Multiplication
-date: 2025-08-29 15:09:00
+date: 2025-11-11 15:09:00
 description: A nifty generalization of multiplication.
 tags: multiplication math
 categories: math
