@@ -104,7 +104,7 @@ We'll write $+(a, b)$ in place of $a+b$, but they should signify the same thing 
 \[
 \begin{cases}
 a, & \text{if } b = 0, \\[6pt]
-+(a,c)^{+}, & \text{if } b = c^{+}, \\[6pt] 
++(a,x)^{+}, & \text{if } b = x^{+}, \\[6pt] 
 \end{cases}
 \]
 
@@ -154,14 +154,14 @@ These numbers, and indeed the infinitude of numbers which come afterwards, ($\om
 <br>
 
 <div align="center">
-\[
+$$
 +(a,b) =
 \begin{cases}
-a, & \text{if } b = 0, \\[6pt]
-+(a,c)^{+}, & \text{if } b = c^{+}, \\[6pt]
-\displaystyle {\cup_{x<b} +(a,c)\}, & \text{if } b \text{ is a limit ordinal}.
+a, & \text{if } b = 0, \\[3mm]
++(a,x)^{+}, & \text{if } b = x^{+}, \\[2mm]
+\displaystyle \bigcup_{x<b}\{+(a,x)\}, & \text{if } b \text{ is a limit ordinal}.
 \end{cases}
-\]
+$$
 
 </div>
 
