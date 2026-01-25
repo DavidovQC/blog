@@ -7,21 +7,21 @@ ninja.data = [{
     title: "About",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/blog/";
+      window.location.href = "/";
     },
   },{id: "nav-posts",
           title: "Posts",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/posts/index.html";
+            window.location.href = "/posts/index.html";
           },
         },{id: "nav-resume",
           title: "Resume",
           description: "Below you&#39;ll find the technologies I&#39;m familiar with, along with some projects I&#39;ve completed.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/Resume/";
+            window.location.href = "/Resume/";
           },
         },{id: "post-gradated-multiplication",
         
@@ -31,7 +31,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/blog/2025/gradated-multiplication/";
+            window.location.href = "/blog/2025/gradated-multiplication/";
           
         },
       },{id: "post-1-1-1-part-1",
@@ -42,14 +42,14 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/blog/2025/one-plus-one-plus-one/";
+            window.location.href = "/blog/2025/one-plus-one-plus-one/";
           
         },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/blog/books/the_godfather/";
+              window.location.href = "/books/the_godfather/";
             },},{id: "news-i-created-a-blog",
           title: 'I created a blog!',
           description: "",
@@ -66,47 +66,47 @@ ninja.data = [{
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/blog/projects/1_project/";
+              window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/blog/projects/2_project/";
+              window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
-              window.location.href = "/blog/projects/3_project/";
+              window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
           section: "Projects",handler: () => {
-              window.location.href = "/blog/projects/4_project/";
+              window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
-              window.location.href = "/blog/projects/5_project/";
+              window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
-              window.location.href = "/blog/projects/6_project/";
+              window.location.href = "/projects/6_project/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/blog/projects/7_project/";
+              window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/blog/projects/8_project/";
+              window.location.href = "/projects/8_project/";
             },},{id: "projects-project-9",
           title: 'project 9',
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
-              window.location.href = "/blog/projects/9_project/";
+              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -133,7 +133,7 @@ ninja.data = [{
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
-          window.open("/blog/feed.xml", "_blank");
+          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
