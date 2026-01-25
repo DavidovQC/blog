@@ -71,7 +71,7 @@ And so it is much the same in mathematics, for every result one can ask, "but wh
 
 <h3>What is a number?</h3>
 
-We'll now construct the natural numbers. To a set theorist, everything is a set, and that includes numbers. First, $0 = \varnothing = \{ \}$, that is, $0$ is the empty set. It would be an insult to call any other the empty set, so he can have it. From there, we proceed in stages.
+We'll now construct the natural numbers. To a set theorist, everything is a set, and that includes numbers. First, $$0 = \varnothing = \{ \}$$, that is, $0$ is the empty set. It would be an insult to call any other the empty set, so he can have it. From there, we proceed in stages.
 
 <div align="center">
 $$0 = \{\}$$
@@ -119,7 +119,7 @@ Since $2 \neq 0$, we apply the second case:
 $+(3,2) = ( +(3,1) )^+$
 </div>
 
-Again, since 1 ≠ 0:
+Again, since $1 \neq 0$:
 
 <div align="center">
 $+(3,1) = ( +(3,0) )^+$
@@ -147,10 +147,10 @@ $$\{0, 1, 2, 3,... \} = \mathbb{N} = \omega$$
 And then take its successor:
 
 <div align="center">
-$$\omega^{+} = \{\omega\} \cup \omega = \{0, 1, 2, 3,..., \omega \} = \mathbb{N} = \omega+1$$
+$$\omega^{+} = \{\omega\} \cup \omega = \{0, 1, 2, 3,..., \omega \} = \omega+1$$
 </div>
 
-These numbers, and indeed the infinitude of numbers which come afterwards, ($\omega+2, 2 * \omega, \omega^{2}, \omega^{3}, \omega^{\omega}, $ etc...) form a collection known as the *ordinal numbers\*, which are an extension of the natural numbers $\mathbb{N}$ with similar properties, such as that you can add, multiple, exponentiate, and so on with these numbers and still stay within the class. One can check that $+(\omega, 1) = \omega+1$ as one would expect, but, consider the interesting sum: $+(1, \omega)$. How can we go about computing this sum? $\omega$ is not the sucessor of any number, (there is no $\omega-1$ in the ordinals, just as there is no $0-1$ in $\mathbb{N}$) and it is not $0$, so it doesn't fit within either of our two cases. What we must do is extend our definition as follows:
+These numbers, and indeed the infinitude of numbers which come afterwards, ($\omega+2, 2 * \omega, \omega^{2}, \omega^{3}, \omega^{\omega}, $ etc...) form a collection known as the *ordinal numbers*, which are an extension of the natural numbers $\mathbb{N}$ with similar properties, such as that you can add, multiple, exponentiate, and so on with these numbers and still stay within the class. One can check that $+(\omega, 1) = \omega+1$ as one would expect, but, consider the interesting sum: $+(1, \omega)$. How can we go about computing this sum? $\omega$ is not the successor of any number, (there is no $\omega-1$ in the ordinals, just as there is no $0-1$ in $\mathbb{N}$) and it is not $0$, so it doesn't fit within either of our two cases. What we must do is extend our definition as follows:
 <br>
 
 <div align="center">
@@ -159,7 +159,7 @@ These numbers, and indeed the infinitude of numbers which come afterwards, ($\om
 \begin{cases}
 a, & \text{if } b = 0, \\[6pt]
 +(a,c)^{+}, & \text{if } b = c^{+}, \\[6pt]
-\displaystyle sup[\cup_{x<b} +(a,c)], & \text{if } b \text{ is a limit ordinal}.
+\displaystyle {\cup_{x<b} +(a,c)\}, & \text{if } b \text{ is a limit ordinal}.
 \end{cases}
 \]
 
@@ -168,7 +168,7 @@ a, & \text{if } b = 0, \\[6pt]
 Here, a limit ordinal is an ordinal like $\omega$ in that it is not the successor of any ordinal. With this definition in hand, we see that
 
 <div align="center">
-$$+(1, \omega) = sup[\cup_{x<\omega}(+1, x)] = \omega$$.
+$$+(1, \omega) = \{\cup_{x<\omega}(+1, x)\} = \omega$$.
 </div>
 
 That isn't a typo. $1+\omega = \omega \neq \omega+1$. That's quite a surprising result! In light of all this, it might feel like the following should be true:
