@@ -77,7 +77,6 @@ Seeing the title of the paper I immediately thought of making a scientific calcu
 <div class="caption">
     A 3 button calculator, <em>not</em> a gameboy advanced.
 </div>
-<br>
 
 The first design decision I made was to use the longest LCD I could find, and I settled on a [40x2 LCD display](https://www.buydisplay.com/low-cost-4002-40x2-charcter-lcd-display-module-blue-white-color) -- I thought it would be useful, since as you can see from the discussion we had above, even the most elementary computations are comically long. Of course this doesn't help the situation much, but I think it makes the calculator look distinct.
 
