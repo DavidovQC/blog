@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gradated Multiplication
+title: TEST TEST TEST Gradated Multiplication
 date: 2025-11-11 15:09:00
 description: A nifty generalization of multiplication.
 tags: multiplication math
