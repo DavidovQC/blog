@@ -23,9 +23,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/Resume/";
           },
-        },{id: "post-gradated-multiplication",
+        },{id: "post-the-eml-calculator-or-quot-the-two-button-calculator-quot",
         
-          title: "Gradated Multiplication",
+          title: "The eml Calculator (or, &quot;The Two Button Calculator&quot;)",
+        
+        description: "Building a scientific calculator that can perform any computation using just 2 buttons",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/eml-calculator/";
+          
+        },
+      },{id: "post-test-test-test-gradated-multiplication",
+        
+          title: "TEST TEST TEST Gradated Multiplication",
         
         description: "A nifty generalization of multiplication.",
         section: "Posts",
