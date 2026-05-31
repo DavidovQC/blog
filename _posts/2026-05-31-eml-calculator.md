@@ -90,7 +90,7 @@ So, why do I call this paper good news? Because this paper is genius. It is nove
 
 To sum up: _It only takes one brilliant question to come up with a delightful breakthrough._
 
-I hope you will consider that in these potentially trying times of overwhelming change. If it is true today, it will always be true: small people can still do big things.
+<!-- I hope you will consider that in these potentially difficult times. If it is true today, it will always be true: small people can still do big things. -->
 
 # Extra Code
 
