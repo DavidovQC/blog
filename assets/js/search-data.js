@@ -34,9 +34,9 @@ ninja.data = [{
             window.location.href = "/blog/2026/eml-calculator/";
           
         },
-      },{id: "post-test-test-test-gradated-multiplication",
+      },{id: "post-gradated-multiplication",
         
-          title: "TEST TEST TEST Gradated Multiplication",
+          title: "Gradated Multiplication",
         
         description: "A nifty generalization of multiplication.",
         section: "Posts",
